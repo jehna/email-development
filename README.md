@@ -23,6 +23,7 @@ settings:
 ```
 Server type:    POP
 Server address: 127.0.0.1
+Port:           6666
 Username:       whatever
 Password:       12345
 Security:       None
