@@ -12,7 +12,7 @@ function AuthStore(user, auth){
 
 
 MessageStore.prototype.registerHook = function() {
-  const msg = String(fs.readFileSync('index.html'))
+  const msg = String(fs.readFileSync('tmp/template.html'));
   this.addMessage({
     toName:         'Test Dude',
     toAddress:      'test.dude@testdude.com',
@@ -25,4 +25,4 @@ MessageStore.prototype.registerHook = function() {
 }
 
 N3.startServer(6666, '127.0.0.1', AuthStore, MessageStore);
-console.log('Server started')
+console.log('Server started');

@@ -12,6 +12,8 @@
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-watch": "^0.6.1",
-    "pop3-n3": "^0.1.2"
+    "pop3-n3": "^0.1.2",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
   }
 }
